@@ -5,7 +5,6 @@ const aditionals = document.getElementById('aditionals')
 const pizzas = document.getElementById('pizzas')
 const savories = document.getElementById('savories')
 
-
 const renderMenu = (array, id) =>{
 
             array.forEach((product) => {
@@ -23,7 +22,7 @@ const renderMenu = (array, id) =>{
     });
 }
 
-renderMenu(food[0], savories)
+renderMenu([food[0].find(prod => prod.name = 'Empanadas')], savories)
 renderMenu(food[1], medallion)
 renderMenu(food[2], aditionals)
 renderMenu(food[4], pizzas)
