@@ -24,7 +24,8 @@ main{
         width: 19rem;
 }
 .prod-title {
-   font-size: 1.5rem
+   font-size: 1.5rem;
+   
 }
 
 .prod-desc{
@@ -38,6 +39,7 @@ main{
 .title{
         font-family: 'Luckiest Guy', cursive;
         font-size: 3rem;
+        color: rgb(226, 218, 218);
 }
 
 .sub-title{

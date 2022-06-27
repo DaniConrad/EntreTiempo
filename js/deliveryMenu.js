@@ -22,7 +22,8 @@ const renderMenu = (array, id) =>{
     });
 }
 
-renderMenu([food[0].find(prod => prod.name = 'Empanadas')], savories)
+
+renderMenu([food[0][4]], savories)
 renderMenu(food[1], medallion)
 renderMenu(food[2], aditionals)
 renderMenu(food[4], pizzas)
