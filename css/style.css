@@ -39,7 +39,7 @@ main{
 .title{
         font-family: 'Luckiest Guy', cursive;
         font-size: 3rem;
-        color: rgb(226, 218, 218);
+        color: rgb(226, 218, 218)!important;
 }
 
 .sub-title{
